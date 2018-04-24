@@ -3830,3 +3830,1432 @@ Level flags = 0
 Total triangle count: 9046
 Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
 20 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (355201 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2614 texinfos to 2078
+Reduced 62 texdatas to 61 (1182 bytes to 1119)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2094 portalclusters
+7721 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 232626 visible clusters (7.81%)
+Total clusters visible: 2977242
+Average clusters visible: 1421
+Building PAS...
+Average clusters audible: 2062
+visdatasize:1066080  compressed from 1105632
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6791 faces
+701053 square feet [100951688.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6791 patches before subdivision
+zero area child patch
+zero area child patch
+52249 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5383511, max 1449
+transfer lists:  41.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97712, 66065, 38265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38434, 15200, 3629)
+Build Patch/Sample Hash Table(s).....Done<0.0215 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                922/8192        11064/98304    (11.3%) 
+brushsides            8516/65536       68128/524288   (13.0%) 
+planes                5206/65536      104120/1310720  ( 7.9%) 
+vertexes             11273/65536      135276/786432   (17.2%) 
+nodes                 3771/65536      120672/2097152  ( 5.8%) 
+texinfos              2078/12288      149616/884736   (16.9%) 
+texdata                 61/2048         1952/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6791/65536      380296/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4361/65536      244216/3670016  ( 6.7%) 
+leaves                3779/65536      120928/2097152  ( 5.8%) 
+leaffaces             9453/65536       18906/131072   (14.4%) 
+leafbrushes           2068/65536        4136/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53148/512000     212592/2048000  (10.4%) 
+edges                28468/256000     113872/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1429/32768       14290/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25785/65536       51570/131072   (39.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1328444/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1066080/16777216 ( 6.4%) 
+entdata               [variable]       10830/393216   ( 2.8%) 
+LDR ambient table     3779/65536       15116/262144   ( 5.8%) 
+HDR ambient table     3779/65536       15116/262144   ( 5.8%) 
+LDR leaf ambient      7299/65536      204372/1835008  (11.1%) 
+HDR leaf ambient      3779/65536      105812/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      355201/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22108
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+48 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (355201 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2614 texinfos to 2078
+Reduced 62 texdatas to 61 (1182 bytes to 1119)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2094 portalclusters
+7721 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 232626 visible clusters (7.81%)
+Total clusters visible: 2977242
+Average clusters visible: 1421
+Building PAS...
+Average clusters audible: 2062
+visdatasize:1066080  compressed from 1105632
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6791 faces
+701053 square feet [100951688.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6791 patches before subdivision
+zero area child patch
+zero area child patch
+52249 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5383511, max 1449
+transfer lists:  41.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97653, 66043, 38282)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38377, 15188, 3634)
+Build Patch/Sample Hash Table(s).....Done<0.0232 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                922/8192        11064/98304    (11.3%) 
+brushsides            8516/65536       68128/524288   (13.0%) 
+planes                5206/65536      104120/1310720  ( 7.9%) 
+vertexes             11273/65536      135276/786432   (17.2%) 
+nodes                 3771/65536      120672/2097152  ( 5.8%) 
+texinfos              2078/12288      149616/884736   (16.9%) 
+texdata                 61/2048         1952/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6791/65536      380296/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4361/65536      244216/3670016  ( 6.7%) 
+leaves                3779/65536      120928/2097152  ( 5.8%) 
+leaffaces             9453/65536       18906/131072   (14.4%) 
+leafbrushes           2068/65536        4136/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53148/512000     212592/2048000  (10.4%) 
+edges                28468/256000     113872/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1429/32768       14290/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25785/65536       51570/131072   (39.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1328444/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1066080/16777216 ( 6.4%) 
+entdata               [variable]       10830/393216   ( 2.8%) 
+LDR ambient table     3779/65536       15116/262144   ( 5.8%) 
+HDR ambient table     3779/65536       15116/262144   ( 5.8%) 
+LDR leaf ambient      7299/65536      204372/1835008  (11.1%) 
+HDR leaf ambient      3779/65536      105812/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      355201/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22108
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+48 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (356722 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2622 texinfos to 2085
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2097 portalclusters
+7728 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 231182 visible clusters (7.72%)
+Total clusters visible: 2996089
+Average clusters visible: 1428
+Building PAS...
+Average clusters audible: 2065
+visdatasize:1072258  compressed from 1107216
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6797 faces
+701392 square feet [101000456.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6797 patches before subdivision
+zero area child patch
+52193 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5353552, max 1449
+transfer lists:  40.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97364, 65772, 38019)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38399, 15168, 3631)
+Build Patch/Sample Hash Table(s).....Done<0.0235 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5226/65536      104520/1310720  ( 8.0%) 
+vertexes             11287/65536      135444/786432   (17.2%) 
+nodes                 3776/65536      120832/2097152  ( 5.8%) 
+texinfos              2085/12288      150120/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6797/65536      380632/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4373/65536      244888/3670016  ( 6.7%) 
+leaves                3784/65536      121088/2097152  ( 5.8%) 
+leaffaces             9471/65536       18942/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53220/512000     212880/2048000  (10.4%) 
+edges                28519/256000     114076/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1434/32768       14340/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25854/65536       51708/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1329284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1072258/16777216 ( 6.4%) 
+entdata               [variable]       10836/393216   ( 2.8%) 
+LDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+HDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+LDR leaf ambient      7370/65536      206360/1835008  (11.2%) 
+HDR leaf ambient      3784/65536      105952/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22120
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+49 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (356722 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2625 texinfos to 2088
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2097 portalclusters
+7728 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 231182 visible clusters (7.72%)
+Total clusters visible: 2996075
+Average clusters visible: 1428
+Building PAS...
+Average clusters audible: 2065
+visdatasize:1072258  compressed from 1107216
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6797 faces
+701327 square feet [100991176.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6797 patches before subdivision
+zero area child patch
+52193 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5354097, max 1449
+transfer lists:  40.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97397, 65791, 38025)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38424, 15178, 3633)
+Build Patch/Sample Hash Table(s).....Done<0.0253 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5224/65536      104480/1310720  ( 8.0%) 
+vertexes             11287/65536      135444/786432   (17.2%) 
+nodes                 3776/65536      120832/2097152  ( 5.8%) 
+texinfos              2088/12288      150336/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6797/65536      380632/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4373/65536      244888/3670016  ( 6.7%) 
+leaves                3784/65536      121088/2097152  ( 5.8%) 
+leaffaces             9471/65536       18942/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53220/512000     212880/2048000  (10.4%) 
+edges                28519/256000     114076/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1434/32768       14340/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25854/65536       51708/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1329096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1072258/16777216 ( 6.4%) 
+entdata               [variable]       10836/393216   ( 2.8%) 
+LDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+HDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+LDR leaf ambient      7374/65536      206472/1835008  (11.3%) 
+HDR leaf ambient      3784/65536      105952/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22120
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+48 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (356722 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2625 texinfos to 2088
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2097 portalclusters
+7728 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 231182 visible clusters (7.72%)
+Total clusters visible: 2996089
+Average clusters visible: 1428
+Building PAS...
+Average clusters audible: 2065
+visdatasize:1072258  compressed from 1107216
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6797 faces
+701370 square feet [100997368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6797 patches before subdivision
+zero area child patch
+52193 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5353855, max 1449
+transfer lists:  40.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97378, 65780, 38021)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38410, 15172, 3631)
+Build Patch/Sample Hash Table(s).....Done<0.0318 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5226/65536      104520/1310720  ( 8.0%) 
+vertexes             11287/65536      135444/786432   (17.2%) 
+nodes                 3776/65536      120832/2097152  ( 5.8%) 
+texinfos              2088/12288      150336/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6797/65536      380632/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4373/65536      244888/3670016  ( 6.7%) 
+leaves                3784/65536      121088/2097152  ( 5.8%) 
+leaffaces             9471/65536       18942/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53220/512000     212880/2048000  (10.4%) 
+edges                28519/256000     114076/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1434/32768       14340/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25854/65536       51708/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1329304/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1072258/16777216 ( 6.4%) 
+entdata               [variable]       10836/393216   ( 2.8%) 
+LDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+HDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+LDR leaf ambient      7369/65536      206332/1835008  (11.2%) 
+HDR leaf ambient      3784/65536      105952/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22120
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+48 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (356722 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2625 texinfos to 2088
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2097 portalclusters
+7728 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 231182 visible clusters (7.72%)
+Total clusters visible: 2996075
+Average clusters visible: 1428
+Building PAS...
+Average clusters audible: 2065
+visdatasize:1072258  compressed from 1107216
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6797 faces
+701349 square feet [100994376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6797 patches before subdivision
+zero area child patch
+52193 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5353960, max 1449
+transfer lists:  40.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97389, 65788, 38024)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38418, 15175, 3632)
+Build Patch/Sample Hash Table(s).....Done<0.0226 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5226/65536      104520/1310720  ( 8.0%) 
+vertexes             11287/65536      135444/786432   (17.2%) 
+nodes                 3776/65536      120832/2097152  ( 5.8%) 
+texinfos              2088/12288      150336/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6797/65536      380632/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4373/65536      244888/3670016  ( 6.7%) 
+leaves                3784/65536      121088/2097152  ( 5.8%) 
+leaffaces             9471/65536       18942/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53220/512000     212880/2048000  (10.4%) 
+edges                28519/256000     114076/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1434/32768       14340/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25854/65536       51708/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1329116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1072258/16777216 ( 6.4%) 
+entdata               [variable]       10836/393216   ( 2.8%) 
+LDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+HDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+LDR leaf ambient      7371/65536      206388/1835008  (11.2%) 
+HDR leaf ambient      3784/65536      105952/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22120
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+49 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Brush 23408: no visible sides on brush
+Brush 23408: no visible sides on brush
+Brush 23408: no visible sides on brush
+Brush 23408: no visible sides on brush
+Brush 23408: no visible sides on brush
+Brush 23408: no visible sides on brush
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (1)
+bmodel 35 has no head node (class 'func_button', targetname '')
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2101 portalclusters
+7738 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 235472 visible clusters (7.85%)
+Total clusters visible: 3000501
+Average clusters visible: 1428
+Building PAS...
+Average clusters audible: 2068
+visdatasize:1069286  compressed from 1109328
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6797 faces
+701349 square feet [100994376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6797 patches before subdivision
+zero area child patch
+52193 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3915730, max 1271
+transfer lists:  29.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(70903, 47097, 25628)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26211, 10030, 2335)
+Build Patch/Sample Hash Table(s).....Done<0.0227 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5226/65536      104520/1310720  ( 8.0%) 
+vertexes             11287/65536      135444/786432   (17.2%) 
+nodes                 3776/65536      120832/2097152  ( 5.8%) 
+texinfos              2088/12288      150336/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6797/65536      380632/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4373/65536      244888/3670016  ( 6.7%) 
+leaves                3784/65536      121088/2097152  ( 5.8%) 
+leaffaces             9471/65536       18942/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53220/512000     212880/2048000  (10.4%) 
+edges                28519/256000     114076/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1434/32768       14340/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25854/65536       51708/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1329116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1069286/16777216 ( 6.4%) 
+entdata               [variable]       10836/393216   ( 2.8%) 
+LDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+HDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+LDR leaf ambient      7408/65536      207424/1835008  (11.3%) 
+HDR leaf ambient      3784/65536      105952/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22120
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+46 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (356722 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2625 texinfos to 2088
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2097 portalclusters
+7728 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 231182 visible clusters (7.72%)
+Total clusters visible: 2996075
+Average clusters visible: 1428
+Building PAS...
+Average clusters audible: 2065
+visdatasize:1072258  compressed from 1107216
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6797 faces
+701349 square feet [100994376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6797 patches before subdivision
+zero area child patch
+52193 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5353960, max 1449
+transfer lists:  40.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97389, 65788, 38024)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38418, 15175, 3632)
+Build Patch/Sample Hash Table(s).....Done<0.0222 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5226/65536      104520/1310720  ( 8.0%) 
+vertexes             11287/65536      135444/786432   (17.2%) 
+nodes                 3776/65536      120832/2097152  ( 5.8%) 
+texinfos              2088/12288      150336/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6797/65536      380632/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4373/65536      244888/3670016  ( 6.7%) 
+leaves                3784/65536      121088/2097152  ( 5.8%) 
+leaffaces             9471/65536       18942/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53220/512000     212880/2048000  (10.4%) 
+edges                28519/256000     114076/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1434/32768       14340/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25854/65536       51708/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1329116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1072258/16777216 ( 6.4%) 
+entdata               [variable]       11439/393216   ( 2.9%) 
+LDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+HDR ambient table     3784/65536       15136/262144   ( 5.8%) 
+LDR leaf ambient      7371/65536      206388/1835008  (11.2%) 
+HDR leaf ambient      3784/65536      105952/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22120
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+48 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (356722 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2625 texinfos to 2088
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2096 portalclusters
+7717 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 231150 visible clusters (7.72%)
+Total clusters visible: 2992410
+Average clusters visible: 1427
+Building PAS...
+Average clusters audible: 2064
+visdatasize:1067193  compressed from 1106688
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6799 faces
+701123 square feet [100961816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6799 patches before subdivision
+zero area child patch
+52183 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5369244, max 1453
+transfer lists:  41.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97433, 65808, 38028)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38495, 15199, 3635)
+Build Patch/Sample Hash Table(s).....Done<0.0340 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                926/8192        11112/98304    (11.3%) 
+brushsides            8540/65536       68320/524288   (13.0%) 
+planes                5224/65536      104480/1310720  ( 8.0%) 
+vertexes             11295/65536      135540/786432   (17.2%) 
+nodes                 3773/65536      120736/2097152  ( 5.8%) 
+texinfos              2088/12288      150336/884736   (17.0%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6799/65536      380744/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4372/65536      244832/3670016  ( 6.7%) 
+leaves                3781/65536      120992/2097152  ( 5.8%) 
+leaffaces             9470/65536       18940/131072   (14.5%) 
+leafbrushes           2071/65536        4142/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53232/512000     212928/2048000  (10.4%) 
+edges                28527/256000     114108/1024000  (11.1%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1435/32768       14350/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25887/65536       51774/131072   (39.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1328604/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1067193/16777216 ( 6.4%) 
+entdata               [variable]       11925/393216   ( 3.0%) 
+LDR ambient table     3781/65536       15124/262144   ( 5.8%) 
+HDR ambient table     3781/65536       15124/262144   ( 5.8%) 
+LDR leaf ambient      7374/65536      206472/1835008  (11.3%) 
+HDR leaf ambient      3781/65536      105868/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      356722/4194304  ( 8.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22132
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+48 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (361810 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2658 texinfos to 2100
+Reduced 63 texdatas to 62 (1201 bytes to 1138)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2154 portalclusters
+7929 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 242169 visible clusters (8.20%)
+Total clusters visible: 2951763
+Average clusters visible: 1370
+Building PAS...
+Average clusters audible: 2122
+visdatasize:1121069  compressed from 1171776
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6919 faces
+704919 square feet [101508376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6919 patches before subdivision
+zero area child patch
+zero area child patch
+52875 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5486045, max 1427
+transfer lists:  41.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(99652, 68209, 39511)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41017, 17423, 4657)
+Build Patch/Sample Hash Table(s).....Done<0.0268 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                938/8192        11256/98304    (11.5%) 
+brushsides            8618/65536       68944/524288   (13.2%) 
+planes                5246/65536      104920/1310720  ( 8.0%) 
+vertexes             11402/65536      136824/786432   (17.4%) 
+nodes                 3869/65536      123808/2097152  ( 5.9%) 
+texinfos              2100/12288      151200/884736   (17.1%) 
+texdata                 62/2048         1984/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6919/65536      387464/3670016  (10.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4416/65536      247296/3670016  ( 6.7%) 
+leaves                3877/65536      124064/2097152  ( 5.9%) 
+leaffaces             9649/65536       19298/131072   (14.7%) 
+leafbrushes           2113/65536        4226/131072   ( 3.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            53735/512000     214940/2048000  (10.5%) 
+edges                28735/256000     114940/1024000  (11.2%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1427/32768       14270/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         25476/65536       50952/131072   (38.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1353096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1121069/16777216 ( 6.7%) 
+entdata               [variable]       13929/393216   ( 3.5%) 
+LDR ambient table     3877/65536       15508/262144   ( 5.9%) 
+HDR ambient table     3877/65536       15508/262144   ( 5.9%) 
+LDR leaf ambient      8640/65536      241920/1835008  (13.2%) 
+HDR leaf ambient      3877/65536      108556/1835008  ( 5.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      361810/4194304  ( 8.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22207
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+49 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (347220 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2601 texinfos to 2059
+Reduced 62 texdatas to 61 (1179 bytes to 1116)
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+Wrote ZIP buffer, estimated size 106389, actual size 106041
+2 seconds elapsed
+
+
+
+6 threads
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+reading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.prt
+2004 portalclusters
+7474 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 239608 visible clusters (8.82%)
+Total clusters visible: 2715376
+Average clusters visible: 1354
+Building PAS...
+Average clusters audible: 1972
+visdatasize:982276  compressed from 1026048
+writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+6602 faces
+673359 square feet [96963816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6602 patches before subdivision
+zero area child patch
+zero area child patch
+48440 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4794500, max 1334
+transfer lists:  36.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(57191, 41294, 25031)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25355, 11853, 3408)
+Build Patch/Sample Hash Table(s).....Done<0.0231 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                897/8192        10764/98304    (10.9%) 
+brushsides            8351/65536       66808/524288   (12.7%) 
+planes                5162/65536      103240/1310720  ( 7.9%) 
+vertexes             10907/65536      130884/786432   (16.6%) 
+nodes                 3619/65536      115808/2097152  ( 5.5%) 
+texinfos              2059/12288      148248/884736   (16.8%) 
+texdata                 61/2048         1952/65536    ( 3.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6602/65536      369712/3670016  (10.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4298/65536      240688/3670016  ( 6.6%) 
+leaves                3628/65536      116096/2097152  ( 5.5%) 
+leaffaces             9227/65536       18454/131072   (14.1%) 
+leafbrushes           1975/65536        3950/131072   ( 3.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            52020/512000     208080/2048000  (10.2%) 
+edges                27799/256000     111196/1024000  (10.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1441/32768       14410/327680   ( 4.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         26103/65536       52206/131072   (39.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1238420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      982276/16777216 ( 5.9%) 
+entdata               [variable]        8974/393216   ( 2.3%) 
+LDR ambient table     3628/65536       14512/262144   ( 5.5%) 
+HDR ambient table     3628/65536       14512/262144   ( 5.5%) 
+LDR leaf ambient      6650/65536      186200/1835008  (10.1%) 
+HDR leaf ambient      3628/65536      101584/1835008  ( 5.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106041/0        ( 0.0%) 
+physics               [variable]      347220/4194304  ( 8.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 21610
+Writing c:\users\mcmai\documents\loliland\loliland\ttt_loliland_mm1.bsp
+47 seconds elapsed
